@@ -1,0 +1,11 @@
+Installed size: 2.34 MB
+How to install: sudo apt install wifite
+
+you need these for wifite to run:
+aircrack-ng
+ieee-data
+net-tools
+python3
+python3-chardet
+reaver
+tshark
