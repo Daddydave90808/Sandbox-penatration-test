@@ -1,0 +1,32 @@
+
+Burp Suite: Good Tool For Vulnerability Scanning
+
+
+This is a useful tool for performing vulnerability scanning on your websites or web apps.
+
+The pen-tester may not always have the time to test every parameter of a web request, hence this automation technique aids in completing testing tasks.
+
+After a rigorous process of penetration testing, this will invariably make the pen-tester effective and efficient in reaching his aim.
+
+When a vulnerability is found, it has the ability to examine every aspect of the scanning process and will let you know. 
+
+By showing you how to fix it, it will also aid you during the repair process.
+
+
+
+
+
+Burp suite features
+
+
+Proxy: Burp Proxy allows users to intercept and modify requests/responses when interacting with web applications. This how you capture the traffic mentioned earlier, as a proxy will send traffic on behalf of your browser, effectively acting as a middle-man.
+
+Repeater: Repeater allows users to capture, modify, then resend the same request many times(hence repeater). This is useful when crafting a payload manually through trial and error, like with a SQL injection.
+
+Intruder: Intruder allows users to spray an endpoint with requests, which is useful for brute-force attacks or to fuzz endpoints.
+
+Decoder: Decoder allows users to either decode captured info, or encode a payload before sending to the target.
+
+Comparer: Allows users to compare two pieces of data at the word or byte level.
+
+Sequencer: Sequencer is useful to determine the randomness of data, such as session cookie tokens or other randomly generated data.
