@@ -1,0 +1,40 @@
+You can open Nmap by typing nmap in the terminal, all nmap commands require sudo permission.
+
+Access the nmap help menu with nmap -h
+
+
+
+
+If you wanted to detect which operating system the target is running on use  -O
+detect the version of the services running on the target  -sV
+increase the verbosity (more detailed)  -v
+verbosity level two -vv
+Syn Scans are used to determine the state of a communications port without establishing a full connection -sS
+To save the nmap results in three major formats -oA
+to save the nmap results in a "normal" format -oN
+save results in a "grepable" format -oG
+If aren't getting enough result, you can use a more powerful  and aggressive switch(easier to be caught) -A
+Nmap has 5 lvl templates (timing plates) they increase the speed of the scan but are nosier and can cause errors -T5
+choose which port(s) to scan -p 80
+nmap to scan ports 1000-1500 -p 1000-1500
+nmap to scan ports 1000-1500 -p-
+activate a script --script 
+activate all of the scripts in the "vuln" category --script=vuln
+
+
+
+three basic scan types.
+    TCP Connect Scans  -sT
+    SYN "Half-open" Scans -sS
+    UDP Scans  -sU 
+
+ less common port scan types
+    TCP Null Scans -sN
+    TCP FIN Scans -sF
+    TCP Xmas Scans -sX
+
+
+If a port is closed the server should send back a RST  
+If a UDP port doesn't respond to an Nmap scan the results will be marked as open|filtered
+
+
