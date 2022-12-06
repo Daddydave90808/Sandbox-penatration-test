@@ -1,2 +1,2 @@
 # Sandbox-penatration-test
-Tryhackme sandbox emviroments
+Tryhackme sandbox environments
